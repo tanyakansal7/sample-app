@@ -1,0 +1,21 @@
+.NavigationBar{
+    width:100% ;
+    background: black;
+    opacity: 0.75;
+    color: white;
+    /* fix the navigation bar to the top */
+    position: fixed;
+    top: 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+a{
+    color: white;
+}
